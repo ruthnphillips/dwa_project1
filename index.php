@@ -1,17 +1,30 @@
-<!doctype html>
+<?php require('quoteLogic.php'); ?>
+<!DOCTYPE html>
 <html>
-<head>
+	<head>
+	 <link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<h1> ruth phillips...</h1>
 
-	<title>Hello World</title>
-	<meta charset='utf-8'>
+		<img src="img/alien-cartoon-001.jpg" alt="alien picture">
 
-</head>
-<body>
+		<h2> since you asked ... </h2>
+				<div class="likes">
+						<ol>
+							<li>I'm a novice at server-side programming, hence the class. </li>
+							<li>My previous experience is with embedded software.</li>
+							<li>I enjoy reading the Bible.</li>
+							<li>Love to travel, Asia is my favorite continent.</li>
+							<li>Hate Hate Hate Apples.</li>
+						</ol>
+				</div>
 
-	<?php
-	echo 'Hello World! You are visiting ';
-	echo $_SERVER['SERVER_NAME'];
-	?>
-
-</body>
+			<h2>favorite quotes ...</h2>
+			<div class ="container">
+				<p>
+					<?php echo $quote[$myKey]; ?>;
+				</p>
+		</div>
+	</body>
 </html>
