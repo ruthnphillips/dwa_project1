@@ -14,8 +14,6 @@
 						<ol>
 							<li>I'm a novice at server-side programming, hence the class. </li>
 							<li>My previous experience is with embedded software.</li>
-							<li>I enjoy reading the Bible.</li>
-							<li>Love to travel, Asia is my favorite continent.</li>
 							<li>Hate Hate Hate Apples.</li>
 						</ol>
 				</div>
